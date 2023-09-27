@@ -5,7 +5,7 @@ const cors=require('cors');
 const app=express();
 app.use(cors(
     {
-        origin:[],
+        origin:["https://gym-management-backend.vercel.app"],
         methods:["POST","GET"],
         credentials:true
     }
