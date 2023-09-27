@@ -3,7 +3,13 @@ const dotenv=require("dotenv");
 const connectDb=require("./config/db");
 const cors=require('cors');
 const app=express();
-app.use(cors());
+app.use(cors(
+    {
+        origin:[],
+        methods:["POST","GET"],
+        credentials:true
+    }
+));
 const cookieParser=require('cookie-parser');
 const userrouter=require('./routes/userRoutes');
 const classrouter=require('./routes/classRoutes');
