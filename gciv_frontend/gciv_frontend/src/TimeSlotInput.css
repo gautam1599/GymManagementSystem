@@ -1,0 +1,88 @@
+.time-slot-input {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .time-slot-input__title {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .time-slot-input__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .time-slot-input__form-group {
+    flex-basis: calc(50% - 0.5rem);
+    margin-bottom: 1rem;
+  }
+  
+  .time-slot-input__label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .time-slot-input__input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    background-color: #fff;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .time-slot-input__button {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .time-slot-input__button:hover {
+    background-color: #0069d9;
+  }
+  
+  .time-slot-input__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .time-slot-input__table-header {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: left;
+    color: #333;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+  }
+  
+  .time-slot-input__table-row {
+    border: 1px solid #ccc;
+  }
+  
+  .time-slot-input__table-data {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+    border: 1px solid #ccc;
+  }
+  

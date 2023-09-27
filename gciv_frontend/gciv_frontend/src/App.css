@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.calendar_default_event_inner {
+  position: absolute;
+  overflow: hidden;
+  inset: 0px;
+  padding: 2px 2px 2px 8px;
+  font-size: 13px;
+  color: white !important;
+}
+
+.calendar_default_rowheader_inner, .calendar_default_cornerright_inner, .calendar_default_corner_inner, .calendar_default_colheader_inner, .calendar_default_alldayheader_inner{
+  color: white!important;
+  background: #000 !important;
+}
+
+.navigator_default_title, .navigator_default_titleleft, .navigator_default_titleright {
+ 
+  color: rgb(255 255 255) !important;
+  background: rgb(0 0 0) !important;
+}
+
+.nav-link {
+  color:white;
+}
+
+.nav {
+  background-color: #000;
+  --bs-nav-link-hover-color: red;
+}
