@@ -31,3 +31,7 @@ app.use('/log',logrouter);
 app.get("/",(req,res)=>{
     res.send("API running");
 })
+
+const PORT=  5001;
+
+app.listen(PORT,console.log(`Server running on ${PORT}`))
